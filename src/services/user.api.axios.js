@@ -6,5 +6,5 @@ let axiosInstance = axios.create({
 const getUsersAxios = () => {
   return axiosInstance.get()
 }
-const getUserAxios = (id) => {return axiosInstance.get('/' + id)}
+const getUserAxios = (id) => { return axiosInstance.get('/' + id) }
 export {getUserAxios, getUsersAxios}
