@@ -1,11 +1,11 @@
-
+import Launches from "./components/Spacex/Launches";
 
 function App() {
 
     return (
         <div>
-            <h2>Pick </h2>
-
+            <h2>SpaceX components</h2>
+<Launches/>
         </div>
     );
 }
