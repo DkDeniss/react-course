@@ -1,11 +1,20 @@
-import Launches from "./components/Spacex/Launches";
+import {
+    Link
+
+} from "react-router-dom";
 
 function App() {
 
     return (
         <div>
-            <h2>SpaceX components</h2>
-<Launches/>
+
+<ul>
+    <li><Link to={'/'}>todos</Link></li>
+    <li><Link to={'/albums'}>albums</Link></li>
+    <li><Link to={'/comments'}>comments</Link></li>
+</ul>
+
+
         </div>
     );
 }
